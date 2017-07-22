@@ -85,6 +85,15 @@ class Search
      */
     public function search($terms)
     {
+        return $this->booleanSearch($terms);
+    }
+
+    /**
+     * @param $terms
+     * @return $this
+     */
+    public function booleanSearch($terms)
+    {
         $queryString = $this->getQueryString($this->getStemmerFor($this->language), $terms);
 
         $fields = $this->getSearchableFields();
