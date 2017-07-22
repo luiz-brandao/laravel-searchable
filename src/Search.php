@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Searcher;
+namespace App\Searchable;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
@@ -11,7 +11,7 @@ use Wamania\Snowball\Stemmer;
  * Class EloquentSearch
  * @package App\Searcher
  */
-class Searchable
+class Search
 {
     /**
      * @var string
