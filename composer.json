@@ -1,0 +1,26 @@
+{
+  "name": "luiz-brandao/laravel-searchable",
+  "description": "Easy search engine like searches for Laravel",
+  "type": "library",
+  "require": {
+    "wamania/php-stemmer": "^1.2"
+  },
+  "require-dev": {
+    "orchestra/testbench": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Searchable\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Searchable\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Luiz"
+    }
+  ]
+}
