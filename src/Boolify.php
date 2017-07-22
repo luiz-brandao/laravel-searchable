@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Searcher;
+namespace Searchable;
 
 use Wamania\Snowball\Stemmer;
 
