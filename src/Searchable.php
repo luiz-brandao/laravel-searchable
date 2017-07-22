@@ -1,5 +1,5 @@
 <?php
-namespace Searcher;
+namespace Searchable;
 
 use Illuminate\Database\Eloquent\Builder;
 
